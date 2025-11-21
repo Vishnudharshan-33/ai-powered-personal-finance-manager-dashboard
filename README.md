@@ -220,7 +220,7 @@ MIT License - feel free to use for personal or commercial projects.
 
 ## 📧 Contact
 
-For questions or suggestions, open an issue or reach out at https://www.linkedin.com/in/vishnu-dharshan-k-1a0035368/
+For questions or suggestions, open an issue or reach out at https://www.linkedin.com/in/vishnu-dharshan-k/
 
 ---
 
