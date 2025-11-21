@@ -10,6 +10,9 @@ An intelligent finance management system that automatically categorizes bank tra
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![AI](https://img.shields.io/badge/AI-LangChain-orange.svg)
 
+<img width="1541" height="787" alt="image" src="https://github.com/user-attachments/assets/28d9514c-ab32-44d6-8e54-fcd30151df40" />
+
+
 ## 📋 Overview
 
 This project transforms raw bank transaction data into actionable insights through three core components:
