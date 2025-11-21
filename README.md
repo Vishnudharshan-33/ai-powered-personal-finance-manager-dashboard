@@ -98,13 +98,14 @@ Open browser to `http://localhost:5000` and start asking questions!
 
 ```
 finance-tracker/
+├── templates/
+│   └── bot_1.html               # Chatbot UI
+├── templates/
+│   └── transactions_2023_2024.csv   # Input: Raw bank data
+│   └── combined_transactions_categories.csv  # Output: Categorized data
 ├── categorize_expenses.ipynb    # AI categorization workflow
 ├── dashboard.ipynb               # Data visualization dashboard
 ├── chatbot.py                    # Flask-based chatbot server
-├── templates/
-│   └── bot_1.html               # Chatbot UI
-├── transactions_2023_2024.csv   # Input: Raw bank data
-├── combined_transactions_categories.csv  # Output: Categorized data
 ├── complete_financial_analysis.txt  # Text summary for chatbot
 └── requirements.txt              # Python dependencies
 ```
@@ -219,7 +220,7 @@ MIT License - feel free to use for personal or commercial projects.
 
 ## 📧 Contact
 
-For questions or suggestions, open an issue or reach out at [your-email@example.com]
+For questions or suggestions, open an issue or reach out at https://www.linkedin.com/in/vishnu-dharshan-k-1a0035368/
 
 ---
 
