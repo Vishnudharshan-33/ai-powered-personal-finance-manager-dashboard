@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finance Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        #chat-container {
+            border: 1px solid #ddd;
+            height: 400px;
+            overflow-y: scroll;
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #f9f9f9;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .user {
+            background: #007bff;
+            color: white;
+            text-align: right;
+        }
+        .bot {
+            background: #e9ecef;
+        }
+        #user-input {
+            width: 80%;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>💬 Finance Assistant</h1>
+    <div id="chat-container"></div>
+    
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Ask about your finances..." />
+        <button type="submit">Send</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const input = document.getElementById('user-input');
+        const container = document.getElementById('chat-container');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const question = input.value;
+            if (!question) return;
+
+            // Show user message
+            container.innerHTML += `<div class="message user">${question}</div>`;
+            input.value = '';
+
+            // Get bot response
+            const formData = new FormData();
+            formData.append('user_input', question);
+
+            const response = await fetch('/chat', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            container.innerHTML += `<div class="message bot">${data.response}</div>`;
+            
+            // Scroll to bottom
+            container.scrollTop = container.scrollHeight;
+        });
+    </script>
+</body>
+</html>

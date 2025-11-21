@@ -1,0 +1,15 @@
+pandas
+numpy
+plotly
+panel
+jupyter
+langchain
+langchain-community
+langchain-openai
+langchain-huggingface
+huggingface_hub
+faiss-cpu
+transformers
+flask
+python-dotenv
+

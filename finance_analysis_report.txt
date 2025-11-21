@@ -1,0 +1,54 @@
+
+FINANCE ANALYSIS REPORT
+
+Total Transactions Analyzed: 34
+Date Range: 2025-01-05 to 2025-03-29
+
+INCOME ANALYSIS:
+Total Income: €302,300.00
+
+EXPENSE ANALYSIS:
+Total Expenses: €177,934.00
+
+TOP SPENDING CATEGORIES:
+                 Amount
+Category               
+Rent            75000.0
+Shopping        41869.0
+Groceries       16100.0
+Utilities       15295.0
+Dining          14270.0
+Transportation   9100.0
+Healthcare       6300.0
+
+
+MONTHLY BREAKDOWN:
+         Net Amount
+Date               
+2025-01    138339.0
+2025-02    150098.0
+2025-03    191797.0
+
+
+LARGEST TRANSACTIONS:
+          Date    Name / Description   Amount        Category
+22  2025-03-01                Salary  78000.0          Income
+0   2025-01-05                Salary  75000.0          Income
+11  2025-02-03                Salary  75000.0          Income
+28  2025-03-17                Amazon  36999.0        Shopping
+1   2025-01-07            House Rent  25000.0            Rent
+12  2025-02-05            House Rent  25000.0            Rent
+23  2025-03-03            House Rent  25000.0            Rent
+16  2025-02-15      Freelance Client  22000.0          Income
+4   2025-01-15      Freelance Client  18000.0          Income
+26  2025-03-11      Freelance Client  16500.0          Income
+32  2025-03-27           Mutual Fund   9800.0  Not applicable
+24  2025-03-06                 DMart   8900.0       Groceries
+18  2025-02-19            Restaurant   7800.0          Dining
+15  2025-02-13            Big Bazaar   7200.0       Groceries
+6   2025-01-20                Amazon   4870.0        Shopping
+30  2025-03-21                Swiggy   4200.0          Dining
+9   2025-01-29        Stock Dividend   4100.0          Income
+21  2025-02-27        Stock Dividend   3900.0          Income
+33  2025-03-29                Clinic   3800.0      Healthcare
+27  2025-03-14  Electricity Provider   3500.0       Utilities
