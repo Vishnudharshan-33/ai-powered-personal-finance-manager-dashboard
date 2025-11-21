@@ -100,7 +100,7 @@ Open browser to `http://localhost:5000` and start asking questions!
 finance-tracker/
 ├── templates/
 │   └── bot_1.html               # Chatbot UI
-├── templates/
+├── data/
 │   └── transactions_2023_2024.csv   # Input: Raw bank data
 │   └── combined_transactions_categories.csv  # Output: Categorized data
 ├── categorize_expenses.ipynb    # AI categorization workflow
