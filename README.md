@@ -10,8 +10,15 @@ An intelligent finance management system that automatically categorizes bank tra
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![AI](https://img.shields.io/badge/AI-LangChain-orange.svg)
 
-<img width="1541" height="787" alt="image" src="https://github.com/user-attachments/assets/28d9514c-ab32-44d6-8e54-fcd30151df40" />  <img width="907" height="585" alt="image" src="https://github.com/user-attachments/assets/b27ce901-cb93-4a0c-967b-a421fda43473" />
+## Project Preview
 
+<div align="center">
+
+| Dashboard View                              | Chatbot Interface                           |
+|:-------------------------------------------:|:-------------------------------------------:|
+| <img src="https://github.com/user-attachments/assets/28d9514c-ab32-44d6-8e54-fcd30151df40" alt="Dashboard" width="800" height="400"/> | <img src="https://github.com/user-attachments/assets/b27ce901-cb93-4a0c-967b-a421fda43473" alt="Chatbot" width="800" height="400"/> |
+
+</div>
 
 
 ## 📋 Overview
